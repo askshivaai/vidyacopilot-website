@@ -1,0 +1,41 @@
+{
+  "product": "VIDYA Copilot",
+  "nameOnPhone": "VIDYA Shikshak",
+  "brandLine": "A helping hand for teachers. You make the final decision.",
+  "informationDate": "2026-10-06",
+  "category": "Android app for Indian school teachers' school-topic questions",
+  "platform": { "android": true, "ios": "not confirmed", "playStore": false, "phoneRequirements": "not supplied" },
+  "availability": { "stage": "early version", "access": "contact the team by email", "price": "not announced" },
+  "input": ["typed text", "voice via phone listening tool"],
+  "output": ["text reply", "optional spoken reply via phone speaking tool, can start before reply is finished, can be stopped"],
+  "replyLanguages": ["Hindi", "Marathi", "English", "match the question"],
+  "languageNotes": "Quality varies; wrong language or mixed scripts possible; Marathi needed the most improvement in reported tests",
+  "aiRunsOnPhone": true,
+  "appInternetPermission": false,
+  "voiceMayNeedInternet": true,
+  "answerSource": "model memory; no textbook search in the regular app",
+  "warningOnEveryReply": "Answered from memory, not from your book — worth checking.",
+  "conversationMemory": false,
+  "teacherProfileStoredOnPhone": true,
+  "schoolSystemConnection": false,
+  "topicFocus": "especially Classes 6-8",
+  "reportedTests": {
+    "speechStartMs": 434,
+    "speechStartContext": "one test, app already ready, OPPO phone, listening time excluded, not a guarantee",
+    "repliesHardToUnderstand": "about 1 in 10 in one phone test of the newer version",
+    "incomplete": ["low-cost phone testing", "screen-reader accessibility checks"]
+  },
+  "features": {
+    "availableNow": ["typed questions", "voice questions", "spoken replies with stop", "quiet mode", "reply language setting", "memory warning", "teacher profile on phone", "one question at a time"],
+    "builtButOff": ["textbook grounding", "suggested marks"],
+    "notAvailable": ["handwriting reading"],
+    "planned": ["better language quality especially Marathi", "app's own listening and speaking tools", "suggested marks teachers can check", "handwriting reading when reliable", "class study reports", "more phone tests and accessibility checks"]
+  },
+  "claimsNotMade": ["prices", "adoption figures", "testimonials", "customer names", "certifications", "awards", "partnerships", "time savings", "learning outcomes", "first/only/best"],
+  "leadership": [
+    { "name": "Divya Prakash Jha", "role": "CEO" },
+    { "name": "Vaibhav Jain", "role": "COO" },
+    { "name": "Zeeshan Khan", "role": "CMO" }
+  ],
+  "studentApp": { "name": "VIDYA AI", "separate": true }
+}

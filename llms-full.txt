@@ -1,0 +1,86 @@
+# VIDYA Copilot — full AI-readable text
+Product information as of 6 October 2026. This file matches the public website and makes no claim the website does not make.
+
+## Identity
+- Website name: VIDYA Copilot. Name shown on the phone: VIDYA Shikshak. Same teacher app.
+- Brand line: A helping hand for teachers. You make the final decision.
+- Category: Android app for Indian school teachers' school-topic questions.
+- Not the student app. VIDYA AI is a separate student app with its own website; the student app looks in the books available to it; the regular teacher app does not search the textbook.
+
+## Status and availability
+- Early version. Not on the Google Play Store. Access is arranged by contacting the team by email with classes, subjects, preferred reply language and Android phone model.
+- Prices for teacher use, setup and school trials are not announced. No free plan, monthly price or school package is confirmed.
+- No adoption figures, customer names, testimonials, certifications, awards, partnerships or quantified outcomes are claimed.
+- The verified contact email and company legal details were not supplied at build time; the website marks them as placeholders.
+
+## What the app does (available now)
+1. Typed questions about school topics.
+2. Voice questions through the phone's listening tool (availability and internet need vary by phone).
+3. Replies the teacher can read, or hear aloud through the phone's speaking tool; speech can begin before the reply is finished; a Stop control ends it.
+4. Quiet mode: "Speak replies aloud" switched off.
+5. Reply language setting: Hindi, Marathi, English, or match the question. Quality varies; some replies may use the wrong language, mix scripts or be unclear.
+6. A reminder under every reply: "Answered from memory, not from your book — worth checking."
+7. Teacher profile (name, school, classes, subjects) saved on the phone. No connection to a school system or to the student app's school connection.
+8. One question at a time; each question is treated as new; no conversation memory.
+
+## How it works
+- The AI model is saved on the Android phone and writes replies on the phone. The app has no internet permission at the operating-system level.
+- Replies are written from what the AI has learned ("memory"). The textbook-grounding feature was tested and is turned off in the regular app because adding textbook facts did not improve replies enough.
+- Speech recognition (listening) and speech output (speaking) are the phone's own services, outside the app. They may need the internet unless the right language files are installed, and they have their own privacy settings. Practical check: turn the internet off, ask by voice, listen to the reply.
+- Engineering described in the documentation: model fine-tuning, measurements on actual phones, language testing; experiments that did not meet the bar were stopped.
+
+## Reported test results
+- One reported test of the newer AI version, app already ready, OPPO test phone: speech began about 434 ms after the question was sent (listening time not included). Not a guarantee for every phone or question. Low-cost phone testing is not complete.
+- About one in ten replies was hard to make sense of in one phone test. Worse on unfamiliar topics. Marathi replies needed the most improvement.
+- Screen-reader accessibility checks are not complete.
+
+## Built but turned off in the regular app
+- Using textbook facts to write replies.
+- Suggested marks: checks a typed student answer against a marking guide and aims to show the student's words supporting each suggested mark; the teacher would decide. Turned off because it is not reliable enough yet.
+
+## Not available
+- Reading photos of handwritten answer papers: tests without internet were not good enough. Will be tried again only when reliable on the phone.
+- Class study reports and a school information page: planned.
+
+## Planned (no release dates)
+- Better language and answer quality, especially Marathi.
+- The app's own listening and speaking tools, so voice does not depend on phone services.
+- Suggested marks teachers can check, with the teacher deciding final marks.
+- Reading handwritten answers, only when reliable without internet.
+- Class study reports.
+- More phone tests, including low-cost phones, and screen-reader accessibility checks.
+
+## New screen design being tested
+- Greeting, class and subject choices, starter questions, a large microphone, clearer status messages. Tapping a starter question fills the box; nothing is sent until the teacher sends it. The installed version may show the regular design or the new one.
+
+## Topic focus
+- Especially Classes (Standards) 6–8. The full topic list has not been supplied. Teachers should test their own chapters.
+
+## Trust principles (what the company asks to be judged by)
+1. Honest about limits: every reply says it came from memory and should be checked.
+2. Teacher control: read or listen, stop any time, decide what to use.
+3. On-phone design: the app writes replies without internet permission.
+4. Care with student marks and private information: marking stays off until reliable; do not send answer papers in a first enquiry.
+5. Clear naming and status: Shikshak on the phone, Copilot on the website; features listed as available, built but off, or planned.
+
+## How to trial it in a school (suggested)
+1. Choose a small group of teachers and a few known topics.
+2. Check how to get the app and which phones to use (the teachers' own Android phones).
+3. Review actual replies against books and notes: facts right, clear, language suitable.
+4. Check everyday controls: voice with internet off, quiet mode, stop, two unrelated questions in a row.
+5. Decide from the findings: continue, narrow, or wait.
+
+## Comparison (category level, no named benchmarks)
+- Broad online AI chat: usually needs internet; general purpose; usually remembers the conversation.
+- Voice-first assistants: mostly voice; general purpose; quiet reading not a strength.
+- VIDYA Copilot: on-phone AI with no internet permission; type or speak; quiet mode and stop control; memory warning on every reply; teacher-focused; no conversation memory.
+- All three: AI answers still need checking. No superiority in correctness is claimed.
+
+## Leadership
+- Divya Prakash Jha, Chief Executive Officer. Vaibhav Jain, Chief Operating Officer. Zeeshan Khan, Chief Marketing Officer. No biographies or direct quotations are published.
+
+## Website privacy
+- The website has no contact form; contact is an email link. No cookies or third-party analytics at launch. The interface simulation on the website runs in the browser and sends nothing.
+
+## Pages
+/ , /for-teachers , /features , /for-schools , /how-it-works , /languages-and-devices , /trust , /access , /about , /faq , /contact , /whats-next , /demo , /brochure , /privacy , /insights , /ai/overview , /ai/product-fact-sheet , /ai/features , /ai/use-cases , /ai/comparison-notes , /ai/facts.json

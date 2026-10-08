@@ -1,0 +1,38 @@
+# VIDYA Copilot
+
+> VIDYA Copilot is an early Android app that helps Indian school teachers ask questions about school topics by typing or speaking, in Hindi, Marathi or English, and read or hear the reply. The AI runs on the phone (the app has no internet permission). Replies come from the AI's memory, not the teacher's textbook, and every reply carries the warning "Answered from memory, not from your book — worth checking." The teacher checks the reply and makes the final decision. The app appears on the phone as VIDYA Shikshak. Not yet on the Play Store; access by contacting the team. No prices, adoption figures, testimonials or results are claimed. Product information as of 6 October 2026.
+
+## Key facts
+- Platform: Android only; iPhone not confirmed. Exact phone requirements not supplied.
+- Reply languages: Hindi, Marathi, English, or match the question. Marathi needed the most improvement in reported tests.
+- Voice input and spoken replies use the phone's separate listening and speaking tools, which may need the internet unless language files are installed.
+- Each question is treated as new; no conversation memory.
+- Reported test (one phone, OPPO, app ready): speech began about 434 ms after sending. About 1 in 10 replies hard to make sense of.
+- Not available in the regular app: textbook grounding (built, off), suggested marks (built for testing, off), handwriting reading (not available), class study reports (planned).
+- Leadership: Divya Prakash Jha (CEO), Vaibhav Jain (COO), Zeeshan Khan (CMO). No bios or quotes published.
+
+## AI-readable pages
+- [Overview](/ai/overview): company and product summary
+- [Product fact sheet](/ai/product-fact-sheet): attribute table
+- [Feature summary](/ai/features): available / built but off / planned
+- [Use cases](/ai/use-cases): situations and visitor types
+- [Comparison notes](/ai/comparison-notes): category comparison, no named benchmarks
+- [facts.json](/ai/facts.json): machine-readable facts
+- [Full text](/llms-full.txt)
+
+## Main pages
+- [Home](/)
+- [For teachers](/for-teachers)
+- [Features](/features)
+- [For schools](/for-schools)
+- [How it works](/how-it-works)
+- [Languages and devices](/languages-and-devices)
+- [Trust and teacher control](/trust)
+- [How to get it](/access)
+- [About](/about)
+- [Questions and answers](/faq)
+- [Contact](/contact)
+- [What's next](/whats-next)
+- [Interface simulation](/demo)
+- [Teacher brochure](/brochure)
+- [Insights](/insights)
